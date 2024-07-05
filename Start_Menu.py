@@ -16,7 +16,7 @@ class MainMenu(Entity):
 
     def start_game(self):
         # Start the game by running game.py
-        os.system(f'{sys.executable} sus.py')
+        os.system(f'{sys.executable} game.py')
         time.sleep(0.5)
         application.quit()
 
